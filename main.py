@@ -81,12 +81,6 @@ class Parser:
 
 
 def main():
-    PROXY_LIST = [
-    "192.168.1.50:8080",
-    "185.22.14.150:3128",
-    "45.138.22.11:8000",
-    "127.0.0.1:8888"
-    ]
     parser = Parser('https://www.amd.by/roboty-pylesosy/')
     logging('__init__')
     parser.search()
